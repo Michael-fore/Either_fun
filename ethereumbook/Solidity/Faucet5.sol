@@ -1,5 +1,5 @@
 // Version of Solidity compiler this program was written for
-pragma solidity ^0.4.22;
+pragma solidity ^0.6.0;
 
 contract owned {
 	address owner;
