@@ -1,0 +1,3 @@
+[submodule "ethereumbook"]
+	path = ethereumbook
+	url = git@github.com:mitrydoug/ethereumbook.git
