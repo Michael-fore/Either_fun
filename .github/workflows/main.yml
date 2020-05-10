@@ -24,10 +24,10 @@ jobs:
     - run: npm install truffle
     # going to seperate linting and trufffling into different jobs
     - run: npm install solhint
-    - run: echo solhint init-config
-    - run: echo solhint "contracts/**/*.sol"
+    - run: solhint init-config
+    - run: solhint "contracts/**/*.sol"
 
-    - run: echo truffle test ./test/TestMetaCoin.sol
+    - run: truffle test ./test/TestMetaCoin.sol
 
 
  
