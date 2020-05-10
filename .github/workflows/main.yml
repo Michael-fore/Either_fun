@@ -22,6 +22,10 @@ jobs:
     - uses: actions/checkout@v2
     
     - run: npm install truffle
+    # going to seperate linting and trufffling into different jobs
+    - run: npm install solhint
+    - run: echo solhint init-config
+    - run: echo solhint "contracts/**/*.sol"
 
     - run: echo truffle test ./test/TestMetaCoin.sol
 
